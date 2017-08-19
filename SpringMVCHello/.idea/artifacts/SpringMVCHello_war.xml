@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringMVCHello:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SpringMVCHello.war">
+      <element id="artifact" artifact-name="SpringMVCHello:war exploded" />
+    </root>
+  </artifact>
+</component>
