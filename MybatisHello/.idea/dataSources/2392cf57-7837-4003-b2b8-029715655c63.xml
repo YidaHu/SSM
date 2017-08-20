@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - user@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="user">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="booksystem"/>
+    <schema id="3" name="customerinfomanagesystem"/>
+    <schema id="4" name="exammanagerment"/>
+    <schema id="5" name="forum"/>
+    <schema id="6" name="goods"/>
+    <schema id="7" name="hibernate"/>
+    <schema id="8" name="imooc"/>
+    <schema id="9" name="information_schema"/>
+    <schema id="10" name="laravel"/>
+    <schema id="11" name="myshop"/>
+    <schema id="12" name="mysql"/>
+    <schema id="13" name="parking_system"/>
+    <schema id="14" name="runoob"/>
+    <schema id="15" name="shop"/>
+    <schema id="16" name="shopping"/>
+    <schema id="17" name="spj"/>
+    <schema id="18" name="spj1"/>
+    <schema id="19" name="student_manager"/>
+    <schema id="20" name="study"/>
+    <schema id="21" name="t2"/>
+    <schema id="22" name="test"/>
+    <table id="23" parent="1" name="user_inf"/>
+    <column id="24" parent="23" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="25" parent="23" name="username">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="26" parent="23" name="password">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="27" parent="23" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
