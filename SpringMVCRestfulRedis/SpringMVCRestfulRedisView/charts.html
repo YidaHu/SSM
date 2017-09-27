@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Charts Demo</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <script src="js/flotr2.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="container" class="container"></div>
+        <div class="controls">
+            <h3>Function:</h3>
+            <p>
+                <input type="radio" name="func" value="1" onclick="toggleFunc(1)" checked> sin
+                <input type="radio" name="func" value="2" onclick="toggleFunc(2)"> sin(1/x)
+            </p>
+            <h3>Visual mode:</h3>
+            <p>
+                <input type="radio" name="mode" value="1" onclick="toggleMode(1)" checked> #1
+                <input type="radio" name="mode" value="2" onclick="toggleMode(2)"> #2
+                <input type="radio" name="mode" value="3" onclick="toggleMode(3)"> #3
+            </p>
+        </div>
+        <script src="js/script.js"></script>
+</body>
+</html>
